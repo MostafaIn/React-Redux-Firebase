@@ -4,7 +4,7 @@ import SignedInLink from './SignedInLink';
 import SignedOutLink from './SignedOutLinks';
 const Navbar = () => {
     return (
-        <nav className="nav-wrapper blue darken-3">
+        <nav className="nav-wrapper blue darken-3" style={{padding: '0 60px'}}>
             <Link to="/">My Practice</Link>
             <SignedInLink />
             <SignedOutLink />
