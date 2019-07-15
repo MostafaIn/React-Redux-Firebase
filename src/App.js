@@ -9,8 +9,8 @@ import CreateProject from './components/projects/CreateProject';
 
 function App() {
   return (
+    <Router>
     <div className="App">
-      <Router>
         <Navbar />
         <Switch>
           <Route path="/" exact component={Dashboard} />
@@ -19,8 +19,8 @@ function App() {
           <Route path="/signup" component={SignUp} />
           <Route path="/create" component={CreateProject} />
         </Switch>
-      </Router>
     </div>
+    </Router>
   );
 }
 
